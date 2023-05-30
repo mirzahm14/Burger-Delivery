@@ -64,7 +64,6 @@ class BurgerQueen {
 
     public void clearScreen() //untuk membersihkan terminal
     {   
-        System.out.print("\033[H\033[2J"); 
         System.out.flush(); 
     }
 
@@ -395,7 +394,7 @@ class BurgerQueen {
             System.out.println("\t\t\t\t\t              Total harga= Rp" + total_bill  +   "");
             System.out.println("\t\t\t\t\t____________________________________________________");
             System.out.println("\t\t\t\t\t                                                    ");
-            System.out.println("\t\t\t\t\t       Estimasi pengantaran pesanan = "+estimated_time+"                                       ");
+            System.out.println("\t\t\t\t\t       Estimasi pengantaran pesanan = "+estimated_time+" Menit                                      ");
             System.out.println("\t\t\t\t\t____________________________________________________");
             System.out.println("\t\t\t\t\t                                                    ");
             System.out.println("\t\t\t\t\t                                                    ");
